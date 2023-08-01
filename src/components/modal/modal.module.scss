@@ -1,0 +1,11 @@
+.modal {
+   @apply hidden;
+}
+
+.modalContent {
+   @apply bg-white text-black rounded-xl min-h-[400px] min-w-[600px] z-50 cursor-default select-none;
+}
+
+.active {
+   @apply fixed w-full top-0 bottom-0 right-0 bg-opacity-80 bg-zinc-900 grid place-items-center z-40;
+}

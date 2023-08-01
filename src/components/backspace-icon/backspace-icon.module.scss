@@ -1,0 +1,11 @@
+.icon {
+   @apply absolute w-[32px] rounded-full p-[7px] cursor-pointer h-[32px] flex items-center justify-center flex-col z-[61] bg-black;
+   &::after {
+      content: "";
+      @apply w-full h-[2px] block bg-white -rotate-45;
+   }
+   &::before {
+      content: "";
+      @apply w-full h-[2px] rotate-45 block translate-y-[2px] bg-white;
+   }
+}

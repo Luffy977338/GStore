@@ -1,0 +1,109 @@
+.container {
+   @apply bg-white rounded-xl shadow-2xl relative overflow-hidden w-[768px] max-w-full min-h-[480px];
+}
+.h1 {
+   @apply font-bold text-2xl;
+}
+
+.par {
+   @apply text-sm font-thin leading-5 tracking-[0.5px] mt-[20px] mb-[30px];
+}
+
+.link {
+   @apply text-gray-600 text-sm no-underline my-[15px];
+}
+
+.form_container form {
+   @apply bg-white flex flex-col px-[50px] justify-center h-full items-center text-center;
+}
+
+.social_container {
+   @apply my-[20px];
+}
+
+.social_container a {
+   @apply border border-solid border-primary rounded-full inline-flex justify-center items-center mx-[5px] h-[40px] w-[40px];
+}
+
+.form_container input {
+   @apply bg-neutral-200 border-none py-[12px] px-[15px] my-[8px] w-full rounded-xl;
+   &:focus {
+      @apply outline-none;
+   }
+}
+
+.button {
+   @apply rounded-3xl bg-primary-red text-white text-xs font-bold py-[12px] px-[45px] tracking-[1px] uppercase transition-transform duration-75 ease-in;
+}
+
+.button:active {
+   @apply scale-[0.95];
+}
+
+.button.ghost {
+   @apply bg-transparent border border-solid border-white;
+}
+
+.form_container {
+   @apply absolute top-0 h-full transition-all duration-700 ease-in-out;
+}
+
+.sign_in_container {
+   @apply left-0 w-[50%];
+}
+
+.sign_up_container {
+   @apply left-0 w-[50%] opacity-0;
+}
+
+.overlay_container {
+   @apply absolute top-0 left-[50%] w-[50%] h-full overflow-hidden transition-transform duration-700 ease-in-out z-[51];
+}
+
+.overlay {
+   @apply bg-primary-red text-white relative -left-[100%] h-full w-[200%] translate-y-0 transition-transform duration-700 ease-in-out;
+}
+
+.overlay_panel {
+   @apply absolute top-0 flex flex-col justify-center items-center px-[40px] h-full w-[50%] text-center translate-y-0 transition-transform duration-700 ease-in-out;
+}
+
+.overlay_right {
+   @apply right-0 translate-y-0;
+}
+
+.overlay_left {
+   @apply -translate-y-[20%];
+}
+
+.container.right_panel_active .sign_in_container {
+   @apply translate-y-[100%];
+}
+
+.container.right_panel_active .overlay_container {
+   @apply -translate-x-[100%];
+}
+
+.container.right_panel_active .sign_up_container {
+   @apply translate-x-[100%] opacity-100;
+}
+
+.container.right_panel_active .overlay {
+   @apply translate-x-[50%];
+}
+
+.container.right_panel_active .overlay_left {
+   @apply translate-y-0;
+}
+
+.container.right_panel_active .overlay_right {
+   @apply translate-y-[20%];
+}
+
+.footer {
+   @apply mt-[25px] text-center;
+}
+
+.icons {
+   @apply flex w-[30px] h-[30px] tracking-[15px] items-center;
+}

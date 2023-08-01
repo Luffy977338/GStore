@@ -1,0 +1,24 @@
+.game__wrap {
+   @apply mb-6;
+   @apply flex justify-between items-center;
+   .game__img {
+      @apply w-[136px] h-[136px];
+   }
+   .game__info {
+      @apply w-[200px];
+      &_name {
+         @apply text-2xl mb-3;
+      }
+      &_price {
+         @apply text-xl;
+      }
+   }
+   .game__remove {
+      &_button {
+         @apply bg-stone-600 transition-all duration-200 w-[52px] h-[52px] rounded-full flex justify-center items-center;
+         &:hover {
+            @apply bg-red-600;
+         }
+      }
+   }
+}

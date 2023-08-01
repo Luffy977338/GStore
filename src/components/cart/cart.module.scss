@@ -1,0 +1,18 @@
+.cart__wrap {
+   @apply flex justify-between mx-[15%] mb-14 items-end;
+   .search {
+      @apply w-[450px] outline-none pl-12 pr-8 py-3 rounded-2xl text-xl transition-all duration-200 text-primary bg-zinc-700;
+      &::placeholder {
+         @apply text-neutral-400;
+      }
+      &:focus {
+         @apply outline-none bg-zinc-600;
+      }
+   }
+   .select {
+      @apply bg-zinc-700 rounded-lg cursor-pointer outline-none px-2 py-1 text-xl w-36 appearance-none transition-all duration-200;
+      &:hover {
+         @apply bg-neutral-600;
+      }
+   }
+}

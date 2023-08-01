@@ -1,0 +1,11 @@
+.button {
+   @apply text-white rounded-[40px] bg-red-500 text-xl font-semibold py-[12px] px-[45px] -tracking-tighter uppercase transition-transform duration-150;
+}
+
+.button:hover {
+   @apply scale-[1.05];
+}
+
+.button:active {
+   @apply scale-[0.95];
+}

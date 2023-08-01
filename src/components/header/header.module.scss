@@ -1,0 +1,15 @@
+header {
+   @apply sticky top-0 z-20 bg-zinc-800;
+   .header__wrap {
+      @apply flex justify-around items-center h-[124px];
+      .title {
+         @apply font-semibold text-6xl;
+      }
+   }
+   .basket {
+      @apply cursor-pointer text-4xl bg-stone-700 w-[72px] h-[72px] p-3 rounded-lg shadow-lg shadow-zinc-900 transition-all duration-300;
+      &:hover {
+         @apply text-indigo-600 shadow-xl shadow-zinc-900;
+      }
+   }
+}

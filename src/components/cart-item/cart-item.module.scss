@@ -1,0 +1,33 @@
+.cart__bar {
+   @apply rounded-2xl bg-cart-item w-[356px] h-[576px] inline-block;
+   .img__wrap {
+      @apply mb-10 flex justify-center;
+   }
+   .img {
+      @apply rounded-t-2xl w-[356px] h-[356px];
+   }
+   .info {
+      @apply px-7 flex;
+      &__name {
+         @apply w-[220px] min-h-[108px] text-3xl;
+      }
+      &__price {
+         @apply text-2xl w-[80px] text-end;
+      }
+   }
+   .cart__button {
+      @apply text-end translate-y-[40px] pr-6;
+      &_add {
+         @apply text-xl cursor-pointer font-semibold bg-indigo-700 rounded-3xl px-6 py-3 transition-all duration-300;
+         &:hover {
+            @apply bg-indigo-800;
+         }
+      }
+      &_added {
+         @apply text-xl w-56 transition-all duration-200 cursor-pointer font-semibold bg-black rounded-3xl px-6 py-3;
+         &:hover {
+            @apply bg-red-600;
+         }
+      }
+   }
+}

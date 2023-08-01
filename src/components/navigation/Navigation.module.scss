@@ -1,0 +1,15 @@
+.page {
+   @apply mt-24 flex justify-center;
+   &__changer {
+      @apply cursor-pointer mr-3 px-3 py-1 rounded-lg bg-neutral-700 transition-colors duration-200;
+      &:hover {
+         @apply bg-neutral-600;
+      }
+   }
+   &__changer_active {
+      @apply cursor-pointer mr-3 px-3 py-1 rounded-lg bg-neutral-700 transition-colors duration-200 outline;
+      &:hover {
+         @apply bg-neutral-600;
+      }
+   }
+}

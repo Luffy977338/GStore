@@ -1,0 +1,9 @@
+.empty__wrap {
+   @apply h-[620px] grid place-items-center;
+   .empty__cart {
+      @apply ml-6 mb-8 text-9xl;
+   }
+   .text {
+      @apply text-3xl;
+   }
+}
