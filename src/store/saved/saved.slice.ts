@@ -21,6 +21,28 @@ const savedSlice = createSlice({
             state.splice(index, 1);
          }
       },
+      countIncrement: (state, action) => {
+         const { id } = action.payload;
+         const game = state.find((game) => game.id === id);
+         if (game) {
+            if (game.count < 99) {
+               game.count += 1;
+               game.totalPrice = game.price * game.count;
+            }
+            return;
+         }
+      },
+      countDecrement: (state, action) => {
+         const { id } = action.payload;
+         const game = state.find((game) => game.id === id);
+         if (game) {
+            if (game.count > 1) {
+               game.count -= 1;
+               game.totalPrice = game.price * game.count;
+            }
+            return;
+         }
+      },
    },
 });
 

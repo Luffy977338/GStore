@@ -21,7 +21,8 @@ const BasketList = ({ basketImgRef, setIsOpen, toastError }: IBasketList) => {
 
    const handleCheckout = () => {
       if (auth.isAuth) {
-         path("/home");
+         path("/basket");
+         setIsOpen(false);
       } else {
          toastError("Вы не авторизованы");
       }

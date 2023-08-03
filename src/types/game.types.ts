@@ -4,4 +4,6 @@ export interface IGame {
    name: string;
    img: string;
    types: string;
+   count: number;
+   totalPrice: number;
 }

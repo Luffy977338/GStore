@@ -6,6 +6,7 @@ import SortActionAdventure from "./pages/sort-action-adventure/SortActionAdventu
 import SortActionRpg from "./pages/sort-action-rpg/SortActionRpg";
 import SortShooter from "./pages/sort-shooter/SortShooter";
 import SortMoba from "./pages/sort-moba/SortMoba";
+import FinallyBasket from "./components/finally-basket/FinallyBasket";
 
 const homeURL = "/home/_";
 
@@ -17,4 +18,5 @@ export const routes: IRoute[] = [
    { path: `${homeURL}action-rpg`, component: SortActionRpg },
    { path: `${homeURL}shooter`, component: SortShooter },
    { path: `${homeURL}moba`, component: SortMoba },
+   { path: "/basket", component: FinallyBasket },
 ];

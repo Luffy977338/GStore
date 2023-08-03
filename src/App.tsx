@@ -6,6 +6,7 @@ import { IRoute } from "./types/route.types";
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Cart from "./components/cart/Cart";
+import FinallyHeader from "./components/finally-header/FinallyHeader";
 
 const App = () => {
    let pathname = useLocation();
@@ -20,7 +21,7 @@ const App = () => {
 
    return (
       <div>
-         <Header />
+         {pathname.pathname === "/basket" ? <FinallyHeader /> : <Header />}
          <Routes>
             {routes.map((route: IRoute, index: number) => (
                <Route

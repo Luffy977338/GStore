@@ -1,0 +1,6 @@
+.counter {
+   @apply bg-neutral-700 flex justify-center items-center rounded-full text-5xl w-[50px] h-[50px];
+   span {
+      @apply w-[20px] h-[3px] block bg-white;
+   }
+}

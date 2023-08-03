@@ -5,294 +5,378 @@
          "name": "GTA 5",
          "price": 2499,
          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2811/x9SuHZAiRn0uJXB1IKteIgcw.png",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2499
       },
       {
          "id": 2,
          "name": "Minecraft",
          "price": 599,
          "img": "https://assets-prd.ignimgs.com/2021/12/14/minecraft-1639513933156.jpg?width=300&crop=1%3A1%2Csmart",
-         "genre": "sandbox"
+         "genre": "sandbox",
+         "count": 1,
+         "totalPrice": 599
       },
       {
          "id": 3,
          "name": "Dota 2",
          "price": 0,
          "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota2_social.jpg",
-         "genre": "moba"
+         "genre": "moba",
+         "count": 1,
+         "totalPrice": 0
       },
       {
          "id": 4,
          "name": "Forza Horizon 5",
          "price": 1199,
          "img": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/08/ForzaHorizon5_KeyArt_Square_RGB_Final.jpg",
-         "genre": "racing"
+         "genre": "racing",
+         "count": 1,
+         "totalPrice": 1199
       },
       {
          "id": 5,
          "name": "Terraria",
          "price": 499,
          "img": "https://wallpapers.com/images/featured/terraria-9jnp0hmkf1tqc0l2.jpg",
-         "genre": "sandbox"
+         "genre": "sandbox",
+         "count": 1,
+         "totalPrice": 499
       },
       {
          "id": 6,
          "name": "Dont Starve Together",
          "price": 549,
          "img": "https://image.api.playstation.com/cdn/UP2107/CUSA04236_00/39E95ckFs1PkxIFi9Ge0pRGNGmjLNB07.png",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 549
       },
       {
          "id": 7,
          "name": "Fortnite",
          "price": 0,
          "img": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
-         "genre": "battle-royale"
+         "genre": "battle-royale",
+         "count": 1,
+         "totalPrice": 0
       },
       {
          "id": 8,
          "name": "Apex Legends",
          "price": 2999,
          "img": "https://m.media-amazon.com/images/I/710Lg8IQJqL._AC_UF894,1000_QL80_.jpg",
-         "genre": "battle-royale"
+         "genre": "battle-royale",
+         "count": 1,
+         "totalPrice": 2999
       },
       {
          "id": 9,
          "name": "The Legend of Zelda: Breath of the Wild",
          "price": 3599,
          "img": "https://www.gamespot.com/a/uploads/scale_medium/1197/11970954/3181241-ig-lozbreathofthewildrelease-20170112.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 3599
       },
       {
          "id": 10,
          "name": "Overwatch",
          "price": 1999,
          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Overwatch_cover_art.jpg/220px-Overwatch_cover_art.jpg",
-         "genre": "shooter"
+         "genre": "shooter",
+         "count": 1,
+         "totalPrice": 1999
       },
       {
          "id": 11,
          "name": "Counter-Strike: Global Offensive",
          "price": 1499,
          "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1683566799",
-         "genre": "shooter"
+         "genre": "shooter",
+         "count": 1,
+         "totalPrice": 1499
       },
       {
          "id": 12,
          "name": "Red Dead Redemption 2",
          "price": 2799,
          "img": "https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic%20Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2799
       },
       {
          "id": 13,
          "name": "FIFA 22",
          "price": 4499,
          "img": "https://static.toiimg.com/thumb/msid-92252222,width-1070,height-580,imgsize-658886,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-         "genre": "sports"
+         "genre": "sports",
+         "count": 1,
+         "totalPrice": 4499
       },
       {
          "id": 14,
          "name": "Among Us",
          "price": 699,
          "img": "https://cdn1.epicgames.com/salesEvent/salesEvent/amoguslandscape_2560x1440-3fac17e8bb45d81ec9b2c24655758075",
-         "genre": "shooter"
+         "genre": "shooter",
+         "count": 1,
+         "totalPrice": 699
       },
       {
          "id": 15,
          "name": "Rocket League",
          "price": 1499,
          "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RocketLeague_image1600w.jpg",
-         "genre": "sports"
+         "genre": "sports",
+         "count": 1,
+         "totalPrice": 1499
       },
       {
          "id": 16,
          "name": "Call of Duty: Warzone",
          "price": 0,
          "img": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mw-wz/WZ-Season-Three-Announce-TOUT.jpg",
-         "genre": "battle-royale"
+         "genre": "battle-royale",
+         "count": 1,
+         "totalPrice": 0
       },
       {
          "id": 17,
          "name": "Assassin's Creed Valhalla",
          "price": 3299,
          "img": "https://cdn.cdkeys.com/700x700/media/catalog/product/6/9/696130-assassin-s-creed-valhalla-gold-edition-xbox-one-front-cover_2_.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 3299
       },
       {
          "id": 18,
          "name": "League of Legends",
          "price": 0,
          "img": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2021/12/14/league-of-legends-2022-patch-schedule-all-lol-season-12-updates-changes.jpg",
-         "genre": "moba"
+         "genre": "moba",
+         "count": 1,
+         "totalPrice": 0
       },
       {
          "id": 19,
          "name": "Cyberpunk 2077",
          "price": 1999,
          "img": "https://www.cyberpunk.net/build/images/social-thumbnail-en-ddcf4d23.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 1999
       },
       {
          "id": 20,
          "name": "The Witcher 3: Wild Hunt",
          "price": 1999,
          "img": "https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 1999
       },
       {
          "id": 21,
          "name": "Super Mario Odyssey",
          "price": 2999,
          "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_bannerXS.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2999
       },
       {
          "id": 22,
          "name": "Sekiro: Shadows Die Twice",
          "price": 2599,
          "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_616x353.jpg?t=1678991267",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2599
       },
       {
          "id": 23,
          "name": "Resident Evil Village",
          "price": 2799,
          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202301/2605/54BqvGNsYNo4YtHlvzpbprEX.png",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2799
       },
       {
          "id": 24,
          "name": "Battlefield 2042",
          "price": 3499,
          "img": "https://cdn1.epicgames.com/offer/52f57f57120c440fad9bfa0e6c279317/EGS_Battlefield2042_DICE_S1_2560x1440-4fd7701f78a23c971e429093fc1f6341",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 3499
       },
       {
          "id": 25,
          "name": "Super Smash Bros. Ultimate",
          "price": 2999,
          "img": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2999
       },
       {
          "id": 26,
          "name": "God of War",
          "price": 1999,
          "img": "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/LsaRVLF2IU2L1FNtu9d3MKLq.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 1999
       },
       {
          "id": 27,
          "name": "Mortal Kombat 11",
          "price": 1999,
          "img": "https://store-images.s-microsoft.com/image/apps.36292.13674739434371576.46d1be43-7d5d-4b71-90b0-97829522e27b.0b2c29b8-fe0f-4a1c-89d7-ce29529162c1",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 1999
       },
       {
          "id": 28,
          "name": "Marvel's Spider-Man",
          "price": 2499,
          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/B2aUYFC0qUAkNnjbTHRyhrg3.png",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2499
       },
       {
          "id": 29,
          "name": "Hades",
          "price": 1499,
          "img": "https://cdn1.epicgames.com/min/offer/2560x1440-2560x1440-5e710b93049cbd2125cf0261dcfbf943.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 1499
       },
       {
          "id": 30,
          "name": "Deathloop",
          "price": 2999,
          "img": "https://assets-prd.ignimgs.com/2020/11/12/deathloop-button-1605211066759.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2999
       },
       {
          "id": 31,
          "name": "Halo Infinite",
          "price": 3999,
          "img": "https://m.media-amazon.com/images/M/MV5BOWRjN2FjYjMtNGIyOS00ZDVjLWFkZjItYzMxMmFmOTllZGEzXkEyXkFqcGdeQXVyNzQzNDM3NTI@._V1_FMjpg_UX1000_.jpg",
-         "genre": "shooter"
+         "genre": "shooter",
+         "count": 1,
+         "totalPrice": 3999
       },
       {
          "id": 32,
          "name": "Genshin Impact",
          "price": 0,
          "img": "https://image.api.playstation.com/vulcan/img/rnd/202104/2507/Xdncb153Sz5UZMaF0X944NP5.png",
-         "genre": "action-rpg"
+         "genre": "action-rpg",
+         "count": 1,
+         "totalPrice": 0
       },
       {
          "id": 33,
          "name": "Biomutant",
          "price": 2799,
          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png",
-         "genre": "action-rpg"
+         "genre": "action-rpg",
+         "count": 1,
+         "totalPrice": 2799
       },
       {
          "id": 34,
          "name": "Monster Hunter Rise",
          "price": 2499,
          "img": "https://m.media-amazon.com/images/M/MV5BNzI3NmFmM2EtN2UwNC00NjMzLTljYWItN2MzMjcwYzJiZWMzXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg",
-         "genre": "action-rpg"
+         "genre": "action-rpg",
+         "count": 1,
+         "totalPrice": 2499
       },
       {
          "id": 35,
          "name": "The Last of Us Part II",
          "price": 2499,
          "img": "https://image.api.playstation.com/vulcan/img/rnd/202010/2618/5LbTaX8QJWSLq1x45rSZ2oyj.png",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2499
       },
       {
          "id": 36,
          "name": "Ghost of Tsushima",
          "price": 2499,
          "img": "https://assetsio.reedpopcdn.com/ghost-of-tsushima-review-a-likeable-if-clunky-hollywood-blockbuster-1594727460287.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2499
       },
       {
          "id": 37,
          "name": "Rainbow Six Siege",
          "price": 999,
          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2121/UlfMBx2yUHge8Vlz7eszqw13.png",
-         "genre": "shooter"
+         "genre": "shooter",
+         "count": 1,
+         "totalPrice": 999
       },
       {
          "id": 38,
          "name": "Hitman 3",
          "price": 2499,
          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNQQfPsxVyPE7CuEuLOFfVWlCk7LO4C3PLg&usqp=CAU",
-         "genre": "stealth"
+         "genre": "stealth",
+         "count": 1,
+         "totalPrice": 2499
       },
       {
          "id": 39,
          "name": "Far Cry 6",
          "price": 3999,
          "img": "https://image.api.playstation.com/vulcan/img/rnd/202106/0722/4MxzDZKZwtEWyMWZghvwd7bQ.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 3999
       },
       {
          "id": 40,
          "name": "Watch Dogs: Legion",
          "price": 2999,
          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202007/0217/OX5mEmwgRPeSQrhGFU3n4moZ.png",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 2999
       },
       {
          "id": 41,
          "name": "The Elder Scrolls V: Skyrim",
          "price": 1999,
          "img": "https://assets-prd.ignimgs.com/2021/08/19/elder-scrolls-skyrim-button-2017-1629409446732.jpg",
-         "genre": "action-rpg"
+         "genre": "action-rpg",
+         "count": 1,
+         "totalPrice": 1999
       },
       {
          "id": 42,
          "name": "GTA VI",
          "price": 4499,
          "img": "https://insider-gaming.com/wp-content/uploads/2023/03/when-will-grand-theft-auto-6-come-out.jpg",
-         "genre": "action-adventure"
+         "genre": "action-adventure",
+         "count": 1,
+         "totalPrice": 4499
       }
    ]
 }
